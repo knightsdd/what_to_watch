@@ -131,3 +131,7 @@ dmypy.json
 .vscode
 
 .idea
+
+# Project dirs and files
+
+/unuse_templates
