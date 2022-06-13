@@ -107,7 +107,7 @@ def load_opinions_command():
             db.session.add(opinion)
             db.session.commit()
             counter += 1
-    click.echo(f'Загружено мнений: {counter}') 
+    click.echo(f'Загружено мнений: {counter}')
 
 if __name__ == '__main__':
     app.run()
